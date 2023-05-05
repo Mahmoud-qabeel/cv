@@ -1,0 +1,261 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+header {
+    background-color: rgb(193, 172, 120);
+    width: 100%;
+    position: fixed;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 100px;
+
+}
+
+.Name{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-weight: 550;
+    font-size: 1.5em;
+
+}
+
+.A a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-weight: 400;
+    font-size: 1.3em;
+    padding-left: 20px;
+}
+.A a:hover {
+    color: rgb(51, 120, 61);
+
+}
+
+section {
+    padding: 100px 200px;
+}
+.Abstract {
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    background: url(./clean-professional-resume-and-cover-letter-layout-template-for-business-job-applications-minimalist-resume-cv-template-resume-design-cv-design-curriculum-vitae-design-template-free-vector.webp) no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 100px;
+    justify-content: center;
+}
+
+
+.m-btn{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    background-color: rgb(60, 130, 99);
+    font-size: 1.4em;
+    font-weight: 500;
+    display: inline-block;
+    padding: 0.937em 2.1875em;
+    letter-spacing: 1px;
+    border-radius: 30px;
+    margin-bottom: 20px;
+    text-align: center;
+    transition: 0.7s ease;
+}
+.m-btn:hover{
+    background-color: rgb(0, 0, 0);
+    transform: scale(1.1);
+}
+
+
+.p-btn{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    background-color: rgb(60, 130, 99);
+    font-size: 1.4em;
+    font-weight: 200;
+    display: inline-block;
+    padding: 0.937em 2.1875em;
+    letter-spacing: 1px;
+    border-radius: 30px;
+    margin-bottom: 20px;
+    text-align: center;
+    transition: 0.7s ease;
+}
+.p-btn:hover{
+    background-color: rgb(0, 0, 0);
+}
+
+.title{
+    display: flex;
+    justify-content: center;
+    color: rgb(0, 0, 0);
+    font-size: 2.2em;
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+
+.content {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.card{
+    background-color: rgb(255, 255, 255);
+    width:21.25em ;
+    box-shadow: 0 5px 25px black;
+    border-radius: 10px;
+    padding: 25px;
+    margin: 15px;
+}
+.card:hover {
+    transform: scale(1.1);
+    transition: 0.7s ease;
+}
+.icon {
+    display: flex;
+    color: rgb(0, 0, 0);
+    font-size: 8em;
+    text-align: center;
+}
+
+.pdf{
+    text-align: center;
+}
+.pdf h3{
+    color: rgb(0, 0, 0);
+    font-size: 1.5em;
+    font-weight: 700;
+    margin: 10px;
+}
+.portfolio{
+    color: rgb(0, 0, 0);
+}
+.pdf-2{
+    text-align: center;
+}
+.pdf-2 h3{
+    color: rgb(0, 0, 0);
+    font-size: 1.5em;
+    font-weight: 700;
+    margin: 10px;
+}
+.poster{
+    color: rgb(0, 0, 0);
+}
+
+.work{
+    background-color: #e1ca90;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.work .content{
+    margin-top: 20px;
+}
+
+.work-card{
+    background-color: rgb(255, 255, 255);
+    border: 2px solid white;
+    min-height: 14em;
+    width: 23em;
+    overflow: hidden;
+    border-radius: 10px;
+    margin: 30px;
+    transition: 0.7s all;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.work-card:hover{
+    transform: scale(1.1);
+}
+.work-card:hover .project-img{
+    opacity: 0.9;
+}
+
+.project-img img{
+    width: 100%;
+}
+.info{
+    padding: 1em;
+}
+
+.link{
+    text-decoration: none;
+    color: black;
+}
+
+.portfolio-titile{
+    display: flex;
+    justify-content: space-between;
+    font-weight: 700;
+    margin-top: 10px;
+    color: rgb(0, 0, 0);
+}
+.all-portfolio{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+.all-portfolio:hover{
+    color: rgb(1, 7, 14);
+    transition: 0.7s ease;
+}
+
+.first{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.card{
+    background-color: rgb(249, 249, 243);
+    border: 2px solid white;
+    min-height: 10em;
+    width: 23em;
+    overflow: hidden;
+    border-radius: 10px;
+    margin: 30px;
+    transition: 0.7s ease;
+}
+.card:hover {
+    transform: scale(1.1);
+    transition: 0.7s ease;
+}
+.first .name{
+    color: rgb(0, 0, 0);
+    display: flex;
+    justify-content: center;
+    font-size: 0.9em;
+    font-weight: 350;
+    margin-bottom: 20px;
+}
+.outlook a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-weight: 600;
+    font-size: 0.7em;
+    padding-left: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+footer {
+    background-color: rgb(225, 205, 153);
+    color: rgb(16, 0, 0);
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 10px 100px;
+}
